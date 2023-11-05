@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.green{
+    background: linear-gradient(to left,rgb(9, 133, 89),rgb(20, 182, 125));
+}
+.btn{
+    background-color: red;
+}
+.bordure-vert{
+    border-color:rgb(9, 133, 89) ;
+}
+.bordure-vert h6{
+    color: rgb(118, 191, 165);
+}
+.btn:hover{
+    background: orangered;
+}
+.certificate{
+    width: 80px;
+}
+.bg-red{
+    background-color: rgb(252, 61, 61);
+}
+.bg-none{
+    background: none;
+    color: #fff;
+}
+.card-taille img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.bg-blue{
+    background-color: rgb(210, 227, 249);
+}
+.bg-footer{
+    background-color: rgb(77, 114, 162);
+}
+
+@media screen and (max-width:768px){
+    .img-responsive img{
+        width: 100vw;
+    }
+}
