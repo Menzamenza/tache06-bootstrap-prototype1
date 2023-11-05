@@ -39,9 +39,15 @@
 .bg-footer{
     background-color: rgb(77, 114, 162);
 }
-
+.classe p{
+    font-size: larger;
+}
 @media screen and (max-width:768px){
     .img-responsive img{
         width: 100vw;
     }
+    .classe p{
+         font-size: small;
+    }
+    
 }
